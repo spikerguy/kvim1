@@ -15,22 +15,22 @@ url="https://github.com/150balbes/Amlogic_s905-kernel/tree/khadas-3.14"
 license=('GPL2')
 makedepends=('xmlto' 'docbook-xsl' 'kmod' 'inetutils' 'bc' 'git')
 options=('!strip')
-source=("https://github.com/150balbes/Amlogic_s905-kernel/archive/${_commit}.tar.gz"
-        'config'
-        'linux.preset'
-        'amlogic.service'
-        'aml_autoscript'
-        'aml_autoscript.zip'
-        's905_autoscript.cmd'
-        'hdmi.sh')
+source=("http://www.kernel.org/pub/linux/kernel/v5.x/linux-5.0.tar.xz"
+        'https://github.com/spikerguy/kvim1/blob/master/config'
+        'https://github.com/spikerguy/kvim1/blob/master/linux.preset'
+        'https://github.com/spikerguy/kvim1/blob/master/amlogic.service'
+        'https://github.com/spikerguy/kvim1/blob/master/aml_autoscript'
+        'https://github.com/spikerguy/kvim1/blob/master/aml_autoscript.zip'
+        'https://github.com/spikerguy/kvim1/blob/master/s905_autoscript.cmd'
+        'https://github.com/spikerguy/kvim1/blob/master/hdmi.sh')
 md5sums=('SKIP'
          'SKIP'
          'SKIP'
-         '507aec83f6eb453ab245f8858d7942d4'
-         '6776dadefe1b7b9031a83dec77f91efa'
-         'da3eb7f21ec07932e82416a9c86267dd'
-         '09725af21fa74815ed942d2467003928'
-         'dcbef227909e1208c064e73c346225f4')
+         'SKIP'
+         'SKIP'
+         'SKIP'
+         'SKIP'
+         'SKIP')
 
 prepare() {
   cd "${srcdir}/${_srcname}"
