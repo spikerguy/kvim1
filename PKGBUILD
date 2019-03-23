@@ -5,13 +5,13 @@ buildarch=8
 
 pkgbase=linux-vim
 _commit=f29b82a2598b69b52764a51876685a7a079a36c6
-_srcname=Amlogic_s905-kernel-${_commit}
+_srcname=linux-5.0
 _kernelname=${pkgbase#linux}
 _desc="Amlogic kernel 3.14 for s9xxx"
-pkgver=3.14.29
+pkgver=5.0.0-1
 pkgrel=2
 arch=('aarch64')
-url="https://github.com/150balbes/Amlogic_s905-kernel/tree/khadas-3.14"
+url="https://github.com/spikerguy/kvim1"
 license=('GPL2')
 makedepends=('xmlto' 'docbook-xsl' 'kmod' 'inetutils' 'bc' 'git')
 options=('!strip')
